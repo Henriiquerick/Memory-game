@@ -119,6 +119,10 @@ const startTimer = () => {
 
 }
 
+function criaplacar(){
+  
+}
+
 window.onload = () => {
   spanPlayer.innerHTML = localStorage.getItem('player');
   startTimer();
